@@ -1,0 +1,17 @@
+body{
+  font-family: Arial;
+}
+.blue{
+  color:blue;
+}
+.grey{
+  color:gray;
+}
+dl dt{
+  padding-top: 15px;
+}
+dt {
+  font-style: italic;
+  margin-top: 15px;
+}
+

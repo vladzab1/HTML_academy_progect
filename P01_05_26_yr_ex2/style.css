@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #add8e5;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+.Box {
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.BoxText {
+  padding: 0 15px;
+  margin: 13px 0;
+}
+
+div.BoxText {
+  padding-top: 0;
+}
+.Box:nth-child(1) {
+  grid-row: span 270;
+}
+
+.Box:nth-child(2) {
+  grid-row: span 200;
+}
+
+.Box:nth-child(3) {
+  grid-row: span 240;
+}
+
+.Box:nth-child(4) {
+  grid-row: span 320;
+}
+
+.Box:nth-child(5) {
+  grid-row: span 360;
+}
+
+.Box:nth-child(6) {
+  grid-row: span 510;
+}
+
+.Box:nth-child(7) {
+  grid-row: span 240;
+}
+
+.Box:nth-child(8) {
+  grid-row: span 300;
+}
+
+.Box:nth-child(9) {
+  grid-row: span 260;
+}

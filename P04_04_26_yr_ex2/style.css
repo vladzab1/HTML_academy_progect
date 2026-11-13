@@ -1,0 +1,20 @@
+
+div{
+  margin-left:60px;
+  margin-right:60px;
+}
+div ul{
+  display: inline-block;
+
+}
+div ul  li{
+  list-style-type: none;
+
+}
+body{
+  text-align: center;
+}
+.left_ul{
+  text-align: left;
+}
+

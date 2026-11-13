@@ -1,0 +1,43 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li{
+   position: relative;
+   display: inline-block;
+   background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+
+}
+ul>li:hover{
+  background-color: #444;
+
+}
+ul li ul{
+   position: absolute;
+   top: 100%;
+  left: 0;
+  background-color: #444;
+  padding: 0;
+  min-width: 120px;
+  z-index: 1000;
+  display: none;
+}
+
+ul li:hover>ul{
+  display: block;
+}
+ul li ul li{
+   display: block;
+  padding: 8px 15px;
+}
+ul li ul li:hover{
+ background-color: #666;
+}
+ul li ul li ul{
+  top: 100%;
+  left:20%;
+}

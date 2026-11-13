@@ -1,0 +1,55 @@
+body{
+  background-color: #f5f5f5;
+}
+li{
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+ul li{
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  background-color: #4d996b;
+  color: white;
+  padding: 15px 30px;
+  cursor: crosshair;
+  border: 1px solid #408059;
+}
+ul>li:hover{
+  background-color: #3f8159;
+
+}
+ul li ul{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #4d996b;
+  padding: 0;
+  min-width: 120px;
+  z-index: 1000;
+  display: none;
+}
+
+ul li:hover>ul{
+  display: block;
+}
+ul li ul li{
+  display: block;
+  padding: 15px 40px;
+}
+ul li ul li:hover{
+  background-color: #3f8159;
+}
+ul li ul li ul{
+  top: 0;
+  left:100%;
+}
+div{
+  padding: 30px;
+  font-size: 17px;
+}

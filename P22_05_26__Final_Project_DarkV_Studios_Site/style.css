@@ -1,0 +1,73 @@
+body{
+ margin: 0;
+  font-family: Trebuchet MS;
+}
+.logo{
+  height: 130px;
+  width: 130px;
+  background-color: white;
+  border-radius: 50%;
+  margin:5px 0 5px 20px;
+}
+nav{
+  background-color: #303030;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.MainNameStudio{
+  font-size: 50px;
+  color: #ededed;
+  text-align: center;
+  margin-top: 35px;
+}
+.Pages{
+  list-style-type: none;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 25px;
+}
+.Pages li a{
+  color: white;
+  text-decoration: none;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #303030;
+  padding: 15px;
+  color: white;
+}
+.games{
+  margin-top: 150px;
+  display: flex;
+  gap: 25px;
+  min-height: 100vh;
+}
+.GamesSmallInfo{
+  background-color: #bcbcbc;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.SmallPhoto{
+  max-height: 600px;
+  max-width: 390px;
+}
+.SmallinfoText{
+  max-width: 300px;
+  text-align: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}

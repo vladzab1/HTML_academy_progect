@@ -1,0 +1,23 @@
+body{
+  font-family: Verdana;
+  color: white;
+}
+
+ol {
+  font-size: 50px;
+  background-color: #ce8b98;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+ol li{
+  background-color: #aa5768;
+  margin-bottom: 20px;
+  list-style-position: inside;
+  padding-left: 20px;
+}
+.text{
+  background-color: #933c4b;
+  padding-left: 30px;
+  padding-right: 30px;
+}

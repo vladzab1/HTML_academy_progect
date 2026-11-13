@@ -1,0 +1,44 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  margin-left: 300px;
+  margin-top: 0;
+
+}
+ul{
+  list-style-type: none;
+  position: fixed;
+  background-color: #8a8a8a;
+  top: 0;
+  bottom: 0;
+  left:0;
+  margin: 0;
+  width: 190px;
+  transition: width 0.5s linear, font-size 0.5s linear;
+  font-size: 0;
+  color: white;
+  padding: 0;
+
+}
+li{
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
+li:hover{
+  background-color: #696969;
+}
+ul:hover {
+  font-size: 40px;
+  width: 430px;
+}
+img{
+  width: 190px;
+  height: 190px;
+  vertical-align: middle;
+}
+.MenuName{
+  font-size: 30px;
+  text-align: center;
+}
+

@@ -1,0 +1,213 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.wrapperTop{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  background-color: #0e4371;
+  position: fixed;
+  width: 100%;
+  color: white;
+  padding-left: 30px;
+}
+h1{
+  font-weight: lighter;
+}
+.TopSettings{
+  padding-top: 100px;
+  padding-bottom:10px;
+  width: 100%;
+  margin: auto;
+}
+.RadioRow {
+  display: flex;
+  gap: 15px;
+  padding-left: 0;
+}
+.InputsRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.TopSettingsForm {
+  width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 240px 610px;
+  column-gap: 20px;
+  width: 860px;
+  margin: 0 auto;
+}
+
+.Fliter{
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #eaeaea;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+.Fliter_Small_Title{
+  color: #355c8a;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.checkItem{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  color: #555555;
+}
+
+.ChoosePrice{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  column-gap: 10px;
+}
+
+.priceInput{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.priceInput input{
+  height: 30px;
+  width: 65px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.MainInfoWrapper{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #69809f;
+  background-color: #f5f5f5;
+}
+
+.AnotherInfoWrapper{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 19px;
+  column-gap: 20px;
+  border: 1px solid #eaeaea;
+}
+
+.Dehli_To_Sydney{
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  margin-bottom: -30px;
+}
+
+.Dehli_To_Sydney_Title{
+  margin-left: 197px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+
+img {
+  height: 20px;
+  margin-left: -39px;
+
+}
+
+.TopSettingsText, .select {
+  width: 135px;
+  height: 31px;
+  margin: 0;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+}
+
+.select{
+  width: 140px;
+  height: 31px;
+  margin: 7px;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+  background-color: #ffffff;
+}
+
+.TopSettingsButton {
+  background-color: #0e4371;
+  color: white;
+  width: 90px;
+  height: 31px;
+  margin: 0;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.SmallTitle{
+  margin-left: 100px;
+  color: #cdcdcd;
+  font-weight: normal;
+  margin-top: 30px;
+}
+.ChoosePrice p{
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.priceInput span{
+  color: #555555;
+}
+.BookButton{
+  background-color: #0e4371;
+  border-radius: 3px;
+  border: 0;
+  height: 31px;
+  width: 80px;
+  margin-left: -18px;
+  color: white;
+}
+.SubInfo{
+  color: #bdb6bb;
+  margin-top: 3px;
+  font-size: 12px;
+}
+.DetailsLink{
+  font-size: 14px;
+  color:  #0e4371;
+  margin-left: -18px;
+
+}
+.AirlinesText{
+  margin-left: -7px;
+}
+.Stops{
+  margin-left: -7px;
+}
+.MainInfoText{
+  font-size: 16px;
+  margin-top: 9px;
+}
+.Price{
+  margin-top: 16px;
+}

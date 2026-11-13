@@ -1,0 +1,13 @@
+.ItalicText{
+  font-style: italic;
+}
+.bold{
+  font-weight: bold;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+  background-color: grey;
+  margin-right: 500px;
+}

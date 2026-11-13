@@ -1,0 +1,12 @@
+div{
+  font-size: 20px;
+  background-color: rgba(72, 93, 91, 0.9);
+  padding: 30px;
+  width: 60dvw;
+  margin: auto;
+
+}
+body{
+  background-image: url(catbackground.png);
+  background-attachment: fixed;
+}

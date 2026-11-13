@@ -1,0 +1,86 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+div{
+  display: inline-block;
+  border: 1px solid black;
+  margin: 65px 15px 15px 15px;
+  border-radius: 23px;
+  box-shadow: 0 0 30px #a0a0a0;
+  background-color: white;
+  transition: transform 0.2s linear;
+}
+
+p{
+  text-align: center;
+  padding: 10px 40px 4px 40px;
+}
+h1{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 3px;
+}
+.price{
+  font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.BuyButtonEnterprise{
+  font-size: 35px;
+  border-radius: 15px;
+  background-color: #c83756;
+  margin: 0 50px 15px 50px;
+  color: white;
+}
+.BuyButtonProfessional{
+  font-size: 35px;
+  border-radius: 15px;
+  background-color: #d7913b;
+  margin: 0 50px 15px 50px;
+  color: white;
+}
+.BuyButtonStandard{
+  font-size: 35px;
+  border-radius: 15px;
+  background-color: #2b6689;
+  margin: 0 50px 15px 50px;
+  color: white;
+}
+.BuyButtonBasic{
+  font-size: 35px;
+  border-radius: 15px;
+  background-color: #66a838;
+  margin: 0 50px 15px 50px;
+  color: white;
+}
+
+.EnterpriseHr{
+  color: #c83756;
+  height: 2px;
+  background-color: #c83756;
+}
+.ProfessionalHr{
+  color: #d7913b;
+  height: 2px;
+  background-color: #d7913b;
+}
+.StandardHr{
+  color: #2b6689;
+  height: 2px;
+  background-color: #2b6689;
+}
+.BasicHr{
+  color: #66a838;
+  height: 2px;
+  background-color: #66a838;
+}
+.PerMonthText{
+  color: #d7d5d3;
+  font-size: 24px;
+  margin-top: 0;
+}
+div:hover{
+  transform: scale(1.28);
+}

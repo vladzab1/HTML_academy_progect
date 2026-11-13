@@ -1,0 +1,93 @@
+body {
+  margin: 0 0 ;
+  padding: 0 0 ;
+  font-family: sans-serif;
+}
+ul{
+  list-style: none;
+}
+
+li{
+  display: inline-block;
+}
+.TopUl{
+  font-size: 20px;
+  background-color: #a23646;
+  color: white;
+  margin: 0 0 0 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.WRITERS{
+  padding-right: 40px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.Topli{
+  height: 100%;
+  padding: 20px 20px;
+}
+h4{
+  margin-top: 3px;
+  color: #7a7a7a;
+}
+.Topli:hover{
+  background-color: #812a36;
+}
+.MainText{
+  width: 65%;
+  float: left;
+  font-size: 19px;
+  padding: 10px;
+  text-align: justify;
+}
+.William_Shakespeare{
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+.ShakespeareInfo{
+  float: right;
+  padding: 10px ;
+  margin-top: -40px;
+  border: 1px solid #e6e6e6;
+  background-color: #e6e6e6;
+  margin-right: 40px;
+  width: 300px;
+}
+.SimilarAuthorsUl{
+  text-align: left;
+  float: left;
+  padding: 0;
+  border: 2px solid #e6e6e6;
+}
+.SimilarAuthorsUl li{
+  text-align: center;
+  padding: 15px;
+
+}
+.SimilarAuthorsUl li img{
+  height: 210px;
+  margin: 0 auto 10px auto;
+  display: block;
+}
+dl{
+  font-weight: bold;
+  float: left;
+  margin-bottom: 0;
+}
+dt{
+  font-size: 25px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+table{
+  font-size: 18px;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}

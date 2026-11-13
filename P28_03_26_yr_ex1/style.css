@@ -1,0 +1,43 @@
+*{
+  margin: 10px;
+}
+
+h1{
+  text-align: center;
+}
+ol{
+  font-size: 23px;
+  background-color: yellow;
+  list-style-type: upper-roman;
+  list-style-position: outside ;
+}
+ul{
+  margin-left: 5px;
+  padding: 5px;
+  background-color: pink;
+  list-style-type: disc;
+  list-style-position: inside;
+
+}
+li ul{
+  background-color: greenyellow;
+  list-style-type: disc;
+  list-style-position: outside;
+  font-family: Verdana;
+}
+li ul li{
+  background-color: blue;
+}
+li{
+  background-color: orange;
+
+}
+dt{
+  font-weight: bold;
+  font-size: 24px;
+}
+dd{
+  font-size: 18px;
+  margin-left: 150px;
+}
+

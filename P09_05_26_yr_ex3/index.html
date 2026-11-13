@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+<div class="wrapperTop">
+  <h1>Flights - Search List </h1>
+  <h4 class="SmallTitle">Home / Flights Search List</h4>
+</div>
+<div class="TopSettings">
+  <div class="TopSettingsForm">
+    <div class="RadioRow">
+      <input type="radio" name="radio" id="radio1"> One Way
+      <input type="radio" name="radio" id="radio2"> Round Trip
+    </div>
+
+    <div class="InputsRow">
+      <input type="text" placeholder="From" class="TopSettingsText">
+      <img src="icons/location.svg" alt="location">
+
+      <input type="text" placeholder="To" class="TopSettingsText">
+      <img src="icons/location.svg" alt="location">
+
+      <input type="text" placeholder="Depart Date" class="TopSettingsText">
+      <img src="icons/calendar.svg" alt="location">
+
+      <input type="text" placeholder="Return Date" class="TopSettingsText">
+      <img src="icons/calendar.svg" alt="location">
+
+      <select class="select">
+        <option>Econom Class</option>
+        <option>Business Class</option>
+        <option>First Class</option>
+      </select>
+      <input type="button" value="Search" class="TopSettingsButton">
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="Fliter">
+    <h2>Filter</h2>
+
+    <h4 class="Fliter_Small_Title">No. of Stops</h4>
+
+    <label class="checkItem">
+      <input type="checkbox" class="checkbox">
+      <span class="Stops">Non Stop</span>
+    </label>
+
+    <label class="checkItem">
+      <input type="checkbox" class="checkbox">
+      <span class="Stops">1 Stop</span>
+    </label>
+
+    <label class="checkItem">
+      <input type="checkbox" class="checkbox">
+      <span class="Stops">2+ Stops</span>
+    </label>
+
+    <h4 class="Fliter_Small_Title">Price</h4>
+
+    <div class="ChoosePrice">
+      <div>
+        <p>Min:</p>
+        <div class="priceInput">
+          <input type="text" placeholder="0">
+          <span>$ - </span>
+        </div>
+      </div>
+
+      <div>
+        <p>Max:</p>
+        <div class="priceInput">
+          <input type="text" placeholder="1000">
+          <span>$</span>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="Fliter_Small_Title">Airlines</h4>
+
+    <label class="checkItem">
+      <input type="checkbox" name="airline" class="checkbox">
+      <span class="AirlinesText">Asian Airline</span>
+    </label>
+
+    <label class="checkItem">
+      <input type="checkbox" name="airline" class="checkbox">
+      <span class="AirlinesText">American Airline</span>
+    </label>
+
+    <label class="checkItem">
+      <input type="checkbox" name="airline" class="checkbox">
+      <span class="AirlinesText">Air Canada</span>
+    </label>
+
+    <label class="checkItem">
+      <input type="checkbox" name="airline" class="checkbox">
+      <span class="AirlinesText">Air India</span>
+    </label>
+
+    <label class="checkItem">
+      <input type="checkbox" name="airline" class="checkbox">
+      <span class="AirlinesText">Jet Airways</span>
+    </label>
+
+    <label class="checkItem">
+      <input type="checkbox" name="airline" class="checkbox">
+      <span class="AirlinesText">Spicejet</span>
+    </label>
+
+    <label class="checkItem">
+      <input type="checkbox" name="airline" class="checkbox">
+      <span class="AirlinesText">IndiGo</span>
+    </label>
+
+    <label class="checkItem">
+      <input type="checkbox" name="airline" class="checkbox">
+      <span class="AirlinesText">Multiple Airlines</span>
+    </label>
+  </div>
+  <div class="Dehli_To_Sydney">
+    <h2 class="Dehli_To_Sydney_Title">Dehli To Sydney</h2>
+    <div>
+      <div class="MainInfoWrapper">
+        <div class="InfoWrapper">Airlines</div>
+        <div class="InfoWrapper">Departure</div>
+        <div class="InfoWrapper">Duration</div>
+        <div class="InfoWrapper">Arrival</div>
+        <div class="InfoWrapper">Price</div>
+      </div>
+
+      <div class="AnotherInfoWrapper">
+        <div>
+          <div class="MainInfoText">IndiGo</div>
+          <div class="SubInfo">6E-2489</div>
+        </div>
+        <div>
+          <div class="MainInfoText">23:30</div>
+          <div class="SubInfo">Dehli</div>
+        </div>
+        <div>
+          <div class="MainInfoText">18:55m</div>
+          <div class="SubInfo">Non Stop</div>
+        </div>
+        <div>
+          <div class="MainInfoText">18:15</div>
+          <div class="SubInfo">Sydney</div>
+        </div>
+        <div>
+          <div class="Price">$980</div>
+        </div>
+        <div>
+            <input type="button" class="BookButton" value="Book">
+          <div class="DetailsLink">Flight Details</div>
+        </div>
+      </div>
+
+      <div class="AnotherInfoWrapper">
+        <div>
+          <div class="MainInfoText">IndiGo</div>
+          <div class="SubInfo">6E-2489</div>
+        </div>
+        <div>
+          <div class="MainInfoText">23:30</div>
+          <div class="SubInfo">Dehli</div>
+        </div>
+        <div>
+          <div class="MainInfoText">18:55m</div>
+          <div class="SubInfo">Non Stop</div>
+        </div>
+        <div>
+          <div class="MainInfoText">18:15</div>
+          <div class="SubInfo">Sydney</div>
+        </div>
+        <div>
+          <div class="Price">$980</div>
+        </div>
+        <div>
+            <input type="button" class="BookButton" value="Book">
+          <div class="DetailsLink">Flight Details</div>
+        </div>
+      </div>
+
+      <div class="AnotherInfoWrapper">
+        <div>
+          <div class="MainInfoText">IndiGo</div>
+          <div class="SubInfo">6E-2489</div>
+        </div>
+        <div>
+          <div class="MainInfoText">23:30</div>
+          <div class="SubInfo">Dehli</div>
+        </div>
+        <div>
+          <div class="MainInfoText">18:55m</div>
+          <div class="SubInfo">Non Stop</div>
+        </div>
+        <div>
+          <div class="MainInfoText">18:15</div>
+          <div class="SubInfo">Sydney</div>
+        </div>
+        <div>
+          <div class="Price">$980</div>
+        </div>
+        <div>
+            <input type="button" class="BookButton" value="Book">
+          <div class="DetailsLink">Flight Details</div>
+        </div>
+      </div>
+
+
+      <div class="AnotherInfoWrapper">
+        <div>
+          <div class="MainInfoText">IndiGo</div>
+          <div class="SubInfo">6E-2489</div>
+        </div>
+        <div>
+          <div class="MainInfoText">23:30</div>
+          <div class="SubInfo">Dehli</div>
+        </div>
+        <div>
+          <div class="MainInfoText">18:55m</div>
+          <div class="SubInfo">Non Stop</div>
+        </div>
+        <div>
+          <div class="MainInfoText">18:15</div>
+          <div class="SubInfo">Sydney</div>
+        </div>
+        <div>
+          <div class="Price" >$980</div>
+        </div>
+        <div>
+            <input type="button" class="BookButton" value="Book">
+          <div class="DetailsLink">Flight Details</div>
+        </div>
+      </div>
+
+
+      <div class="AnotherInfoWrapper">
+        <div>
+          <div class="MainInfoText">IndiGo</div>
+          <div class="SubInfo">6E-2489</div>
+        </div>
+        <div>
+          <div class="MainInfoText">23:30</div>
+          <div class="SubInfo">Dehli</div>
+        </div>
+        <div>
+          <div class="MainInfoText">18:55m</div>
+          <div class="SubInfo">Non Stop</div>
+        </div>
+        <div>
+          <div class="MainInfoText">18:15</div>
+          <div class="SubInfo">Sydney</div>
+        </div>
+        <div>
+          <div class="Price">$980</div>
+        </div>
+        <div>
+            <input type="button" class="BookButton" value="Book">
+          <div class="DetailsLink">Flight Details</div>
+        </div>
+      </div>
+
+
+      <div class="AnotherInfoWrapper">
+        <div>
+          <div class="MainInfoText">IndiGo</div>
+          <div class="SubInfo">6E-2489</div>
+        </div>
+        <div>
+          <div class="MainInfoText">23:30</div>
+          <div class="SubInfo">Dehli</div>
+        </div>
+        <div>
+          <div class="MainInfoText">18:55m</div>
+          <div class="SubInfo">Non Stop</div>
+        </div>
+        <div>
+          <div class="MainInfoText">18:15</div>
+          <div class="SubInfo">Sydney</div>
+        </div>
+        <div>
+          <div class="Price">$980</div>
+        </div>
+        <div>
+            <input type="button" class="BookButton" value="Book">
+          <div class="DetailsLink">Flight Details</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</form>
+</body>
+</html>

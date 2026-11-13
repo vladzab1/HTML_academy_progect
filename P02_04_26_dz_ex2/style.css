@@ -1,0 +1,37 @@
+body{
+  font-size: 30px;
+  font-family: "Nimbus Roman";
+}
+
+
+.HaveToDo{
+  list-style-image: url(icons/unchecked_16.png);
+}
+.Done{
+  list-style-image: url(icons/checked_16.png);
+  background-color: #bdbabb;
+
+}
+.DoneText{
+  text-decoration: line-through;
+}
+ul li {
+  background-color: #94b0bc;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style-position: inside;
+  padding-left: 30px;
+}
+.red{
+  color: red;
+}
+.blue{
+  background-color: #92B3BE;
+}
+.HaveToDo_blue{
+  list-style-image: url(icons/unchecked_16.png);
+  background-color: #95B5C0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style-position: inside;
+}
